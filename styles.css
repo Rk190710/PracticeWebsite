@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.video {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.video img {
+    width: 200px;
+    height: 300px;
+    border-radius: 5px 5px 0 0;
+}
+
+.random-ad {
+    width: 100vw; /* Fill the full width of the viewport */
+    height: 100vh; /* Fill the full height of the viewport */
+    background-color: #007BFF; /* Background color */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    line-height: 100vh; /* Center text vertically */
+    border-radius: 0; /* No rounded corners */
+    margin: 0; /* Remove margin */
+    cursor: pointer; /* Show pointer on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
